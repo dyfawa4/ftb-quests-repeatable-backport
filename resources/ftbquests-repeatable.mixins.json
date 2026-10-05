@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8.4",
+  "package": "local.questrepeat.mixin",
+  "compatibilityLevel": "JAVA_11",
+  "mixins": ["QuestMixin", "CommandsMixin"],
+  "injectors": {"defaultRequire": 1}
+}

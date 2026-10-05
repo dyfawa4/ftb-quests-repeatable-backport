@@ -1,0 +1,29 @@
+{
+	title: "刷新金币显示（循环测试）"
+	icon: "minecraft:gold_nugget"
+	x: -4.0d
+	y: 6.0d
+	optional: true
+	disable_toast: true
+	tags: ["questrepeat.zeroMoneyDemo"]
+	can_repeat: true
+	repeat_cooldown: 0
+	repeat_wait_all_members: false
+	description: [
+		"点击下方勾选目标，自动领取0元奖励，触发金币显示同步。"
+		"领取后在下一次服务端检测时恢复，可以再次点击。余额不会因此增加或清零。"
+	]
+	id: "__QUEST_ID__"
+	tasks: [{
+		id: "__TASK_ID__"
+		type: "checkmark"
+		title: "点击刷新金币显示"
+	}]
+	rewards: [{
+		id: "__REWARD_ID__"
+		type: "ftbmoney:money"
+		ftb_money: 0L
+		random_bonus: 0
+		auto: "enabled"
+	}]
+}

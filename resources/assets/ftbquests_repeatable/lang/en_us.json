@@ -1,0 +1,5 @@
+{
+  "ftbquests_repeatable.config.can_repeat": "Repeatable",
+  "ftbquests_repeatable.config.repeat_cooldown": "Wait before cycle reset (seconds)",
+  "ftbquests_repeatable.config.wait_all": "Wait for all team members to claim all rewards"
+}

@@ -1,0 +1,5 @@
+{
+  "ftbquests_repeatable.config.can_repeat": "可重复完成",
+  "ftbquests_repeatable.config.repeat_cooldown": "循环重置等待时间（秒）",
+  "ftbquests_repeatable.config.wait_all": "等待全队成员领取全部奖励"
+}
